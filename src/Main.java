@@ -1,12 +1,3 @@
-import Factory.Animal;
-import Factory.AnimalFactory;
-import observer.Citizen;
-import observer.Mail;
-import observer.PostalMail;
-import strategy.*;
-
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -25,7 +16,7 @@ public class Main {
 //        compressor.compressFile(fileName);
 
 
-//        // Observer
+//        // Observer Pattern
 //        // Ex1
 //        PostalMail postalMail = PostalMail.getInstance();
 //        postalMail.setCitizens(Arrays.asList(new Citizen[] {
@@ -49,7 +40,8 @@ public class Main {
 //        postalMail.notifyCitizens();
 
 
-//        // Factory
+//        // Factory Pattern
+//        // Ex1
 //        Animal dog = AnimalFactory.getAnimal("DOG");
 //        dog.sound();
 //        Animal cat = AnimalFactory.getAnimal("CAT");

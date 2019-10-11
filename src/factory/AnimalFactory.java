@@ -1,4 +1,4 @@
-package Factory;
+package factory;
 
 public class AnimalFactory {
     public static Animal getAnimal(String animal) {
