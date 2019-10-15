@@ -2,6 +2,7 @@ import adapter.EnemyAttacker;
 import adapter.EnemyRobot;
 import adapter.EnemyRobotAdapter;
 import builder.BankAccount;
+import chainOfResponsability.*;
 import iterator.*;
 import reflection.Person;
 import templateMethod.Pizza;
@@ -152,6 +153,17 @@ public class Main {
 //        SongsOfThe90s songsOfThe90s = new SongsOfThe90s();
 //        DjMike djMike = new DjMike();
 //        djMike.showPlaylists(songsOfThe70s, songsOfThe80s, songsOfThe90s);
-        
+
+//        // Chain Of Responsability
+//        // Ex1
+//        Chain chainCalc1 = new AddNumbers();
+//        Chain chainCalc2 = new SubtractNumbers();
+//        Chain chainCalc3 = new MultNumbers();
+//        Chain chainCalc4 = new DivideNumbers();
+//        chainCalc1.setNextChain(chainCalc2);
+//        chainCalc2.setNextChain(chainCalc3);
+//        chainCalc3.setNextChain(chainCalc4);
+//        Numbers request = new Numbers(4,2,"sub");
+//        chainCalc1.calculate(request);
     }
 }
