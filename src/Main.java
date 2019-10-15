@@ -2,6 +2,7 @@ import adapter.EnemyAttacker;
 import adapter.EnemyRobot;
 import adapter.EnemyRobotAdapter;
 import builder.BankAccount;
+import iterator.*;
 import reflection.Person;
 import templateMethod.Pizza;
 import templateMethod.SalamiPizza;
@@ -144,5 +145,13 @@ public class Main {
 //        Pizza salamiPizza = new SalamiPizza();
 //        salamiPizza.makePizza();
 
+//        // Iterator
+//        // Ex1
+//        SongsOfThe70s songsOfThe70s = new SongsOfThe70s();
+//        SongsOfThe80s songsOfThe80s = new SongsOfThe80s();
+//        SongsOfThe90s songsOfThe90s = new SongsOfThe90s();
+//        DjMike djMike = new DjMike();
+//        djMike.showPlaylists(songsOfThe70s, songsOfThe80s, songsOfThe90s);
+        
     }
 }
